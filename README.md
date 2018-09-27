@@ -39,5 +39,20 @@
 	cd Angular6Project</li>
 <li>Builds and launches the default browser and serves the application using the default port number 4200:
 	ng serve --open (short cut command : ng s -o)</li></ol>
+	
+### Install Jquery and Bootstrap for Angular 6:
+<p>npm install bootstrap@3 jquery --save</p>
+
+### Adding Bootstrap and JQuery References in angular.json file as follows:
+<p>"styles": [</p>
+<p>"src/styles.css",</p>
+<p>"node_modules/bootstrap/dist/css/bootstrap.min.css"</p>
+<p>]</p>
+
+<p>"scripts": [</p>
+<p>"node_modules/jquery/dist/jquery.min.js",</p>
+<p>"node_modules/bootstrap/dist/js/bootstrap.min.js"</p>
+<p>]</p>
+
 =================================================================================
 
