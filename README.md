@@ -38,7 +38,7 @@
 <ol><li>Go to the project directory:
 	cd Angular6Project</li>
 <li>Builds and launches the default browser and serves the application using the default port number 4200:
-	ng serve --open (short cut command : ng s -o)</li></ol>
+	ng serve --open (shortcut command : ng s -o)</li></ol>
 	
 ### Install Jquery and Bootstrap for Angular 6:
 <p>npm install bootstrap@3 jquery --save</p>
@@ -54,5 +54,18 @@
 <p>"node_modules/bootstrap/dist/js/bootstrap.min.js"</p>
 <p>]</p>
 
+### Angular 6 routing
+<p> Creating employee(create-employee) component with no unit test files (--spec=false) and dedicated folder(--flat=true):</p>
+<p>ng g c employee/create-employee --spec=false --flat=true</p>
+
+<p> Creating employee(list-employees) component with no unit test files (--spec=false) and dedicated folder(--flat=true):</p>
+<p>ng g c employee/list-employees --spec=false --flat=true</p>
+
+### Why a separate routing module?
+<ul><li>Separation of concerns</li>
+<li>Maintainability</li></ul>
+
+### Generate routing module (app-routing) with no dedicated folder and include routing module to root (app) module:
+<p>ng g m app-routing --flat=true --module=app</p>
 =================================================================================
 
