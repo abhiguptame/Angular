@@ -2,6 +2,8 @@
 =================================================================================
 ## Angular Application Projects
 =================================================================================
+## 1. Angular6Project
+---------------------------------------------------------------------------------
 ### Prerequisite:
 <p>Node: 8.X</p>
 <p>npm: 5.x</p>
@@ -37,4 +39,4 @@
 	cd Angular6Project</li>
 <li>Builds and launches the default browser and serves the application using the default port number 4200:
 	ng serve --open (short cut command : ng s -o)</li></ol>
-	
+---------------------------------------------------------------------------------
