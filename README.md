@@ -40,4 +40,4 @@
 <li>Builds and launches the default browser and serves the application using the default port number 4200:
 	ng serve --open (short cut command : ng s -o)</li></ol>
 =================================================================================
----------------------------------------------------------------------------------
+
