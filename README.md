@@ -107,5 +107,7 @@
 <li>patchValue()</li>
 <li>Reset()</li></ul> 
 
+### Nested Form Groups in Reactive Form:
+<p> To group the form elements in the HTML, encapsulate the form elements in a div element and use the formGroupName directive on that container div element. Bind the formGroupName directive to the skills FormGroup instance in the component class. Bind each input element in the HTML, to the corresponding FormControl instance using the formControlName directive. </p> 
 =================================================================================
 
