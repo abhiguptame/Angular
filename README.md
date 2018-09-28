@@ -81,6 +81,31 @@
 <p>formGroup directive: Binds 'form' element to FormGroup instance.</p>
 <p>formControlName directive: Binds input element to FormControl instance</p>
 
+### Angular form control and form group:
+<p>Both FormControl and FormGroup classes inherit from AbstractControl base class.</p>
+<p>The AbstractControl class has properties that help us track both FormControl and FormGroup value and state.</p>
+### AbstractControl Class Properties:
+<ul><li>value</li>
+<li>errors</li>
+<li>valid</li>
+<li>invalid</li>
+<li>dirty</li>
+<li>pristine</li>
+<li>touched</li>
+<li>untouched</li></ul>
+
+### To access a FormControl in a FormGroup:
+<p>eg: employeeForm.controls.fullName.value</p>
+<p>OR</p>
+<p>employeeForm.get('fullName').value</p>
+
+### AbstractControl class methods:
+<ul><li>setValidators()</li>
+<li>clearValidators()</li>
+<li>updateValueAndValidity()</li>
+<li>setValue()</li>
+<li>patchValue()</li>
+<li>Reset()</li></ul> 
 
 =================================================================================
 
