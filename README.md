@@ -67,5 +67,19 @@
 
 ### Generate routing module (app-routing) with no dedicated folder and include routing module to root (app) module:
 <p>ng g m app-routing --flat=true --module=app</p>
+
+### There are 2 ways to create forms in Angular 
+<p>1. Template Driven Forms ( All Codes are completely in HTML )</p>
+<p>2. Reactive Forms (Also called Model Driven Forms and Reactive forms on the other hand allow us to build the form completely in code. )</p>
+
+### With a reactive form, we create the entire form control tree in the component class code.
+<p>Classes for creating a form control tree:</p>
+<ul><li>FormGroup</li>
+<li>FormControl</li></ul>
+
+### Reactive FormsModule:
+<p>formGroup directive: Binds '<form>' element to FormGroup instance.</p>
+<p>formControlName directive: Binds input element to FormControl instance</p>
+
 =================================================================================
 
