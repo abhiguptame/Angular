@@ -78,8 +78,9 @@
 <li>FormControl</li></ul>
 
 ### Reactive FormsModule:
-<p>formGroup directive: Binds '<form>' element to FormGroup instance.</p>
+<p>formGroup directive: Binds 'form' element to FormGroup instance.</p>
 <p>formControlName directive: Binds input element to FormControl instance</p>
+
 
 =================================================================================
 
