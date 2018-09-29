@@ -115,6 +115,7 @@
 <li>Use patchValue() to update a subset or all of form control.</li></ul>
 
 =================================================================================
+## 2.Angular CRUD ( Angular6 )
 =================================================================================
 ### Install JQuery and Bootstrap:
 <p>npm install bootstrap@3 jquery --save</p>
