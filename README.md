@@ -109,5 +109,10 @@
 
 ### Nested Form Groups in Reactive Form:
 <p> To group the form elements in the HTML, encapsulate the form elements in a div element and use the formGroupName directive on that container div element. Bind the formGroupName directive to the skills FormGroup instance in the component class. Bind each input element in the HTML, to the corresponding FormControl instance using the formControlName directive. </p> 
+
+### Angular setValue() and patchValue():
+<ul><li>Use setValue() to update all form control but not a subset of form control.</li>
+<li>Use patchValue() to update a subset or all of form control.</li></ul>
+
 =================================================================================
 

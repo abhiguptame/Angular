@@ -43,7 +43,11 @@
       </div>
     </div>
     <div class="panel-footer">
-      <button class="btn btn-primary" type="submit">Save</button>
+      <div class="btn-toolbar">
+        <button class="btn btn-primary" type="submit">Save</button>
+        <button class="btn btn-primary" type="button" (click)="onLoadDataClick()">Load Data</button>
+        <button class="btn btn-primary" type="button" (click)="onLoadNameAndEmailClick()">Load Name and Email</button>
+      </div>
     </div>
   </div>
 </form>
