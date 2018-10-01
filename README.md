@@ -116,10 +116,13 @@
 
 =================================================================================
 
-## 2.Angular CRUD ( Angular6 )
+## 2. Angular CRUD ( Angular6 )
 
 ---------------------------------------------------------------------------------
 ### Install JQuery and Bootstrap:
 <p>npm install bootstrap@3 jquery --save</p>
+
+### Creating list employee component:
+ng g c employees/listEmployees --spec false --flat true
 
 =================================================================================
