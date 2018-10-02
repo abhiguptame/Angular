@@ -114,6 +114,9 @@
 <ul><li>Use setValue() to update all form control but not a subset of form control.</li>
 <li>Use patchValue() to update a subset or all of form control.</li></ul>
 
+### Angular Form Builder:
+<p> FormBuilder reduces the amount of boilerplate code we have to write to build complex reactive forms </p>
+
 =================================================================================
 
 ## 2. Angular CRUD ( Angular6 )
@@ -122,7 +125,7 @@
 ### Install JQuery and Bootstrap:
 <p>npm install bootstrap@3 jquery --save</p>
 
-### Creating list employee component:
+### Reading Data in Angular(Creating list employees component) :
 ng g c employees/listEmployees --spec false --flat true
 
 =================================================================================
