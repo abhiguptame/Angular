@@ -12,27 +12,27 @@
 <p> Run PowerShell as Administrator </p>
 
 <ul><li>Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force</li>
-<li>npm install -g npm-windows-upgrade</li>
-<li>npm-windows-upgrade</li></ul>
+<li>$ npm install -g npm-windows-upgrade</li>
+<li>$ npm-windows-upgrade</li></ul>
 
 ### Upgrade Node:
 <p>Download latest executable from here: https://nodejs.org/en/download/ </p>
 
 ### Check Node Version:
-<p>node -v </p>
+```$ node -v ```
 
 ### Check npm Version:
-<p>npm -v</p>
+```$ npm -v```
 
 ### Download/ Upgrade Angular CLI:
-<ul><li>Fresh Installation: npm install -g @angular/cli</li>
-<li>Upgrade: npm install -g @angular/cli@latest</li></ul>
+<ul><li>Fresh Installation: $ npm install -g @angular/cli</li>
+<li>Upgrade: $ npm install -g @angular/cli@latest</li></ul>
 
 ### Angular CLI Version:
-<p>ng -v</p>
+```$ ng -v```
 
 ### Creating a new Angular 6 project and all the required files with --skip-tests option to skip generating test files:
-<p>ng new Angular6Project --skip-tests</p>
+```$ ng new Angular6Project --skip-tests```
 
 ### Running the Angular 6 Project:
 <ol><li>Go to the project directory:
@@ -41,7 +41,7 @@
 	ng serve --open (shortcut command : ng s -o)</li></ol>
 	
 ### Install Jquery and Bootstrap for Angular 6:
-<p>npm install bootstrap@3 jquery --save</p>
+```$ npm install bootstrap@3 jquery --save```
 
 ### Adding Bootstrap and JQuery References in angular.json file as follows:
 <p>"styles": [</p>
@@ -56,17 +56,29 @@
 
 ### Angular 6 routing
 <p> Creating employee(create-employee) component with no unit test files (--spec=false) and dedicated folder(--flat=true):</p>
-<p>ng g c employee/create-employee --spec=false --flat=true</p>
+$ ng g c employee/create-employee --spec=false --flat=true
 
 <p> Creating employee(list-employees) component with no unit test files (--spec=false) and dedicated folder(--flat=true):</p>
-<p>ng g c employee/list-employees --spec=false --flat=true</p>
+$ ng g c employee/list-employees --spec=false --flat=true
 
 ### Why a separate routing module?
 <ul><li>Separation of concerns</li>
 <li>Maintainability</li></ul>
 
+### Create a Component 
+```$ ng g c my-component```
+
+### Create a Service
+```$ ng g s my-service```
+
+### Create a Module
+```$ ng g m my-module```
+
+### Create a Module with Routing Module
+```$ ng g m my-module --routing```
+
 ### Generate routing module (app-routing) with no dedicated folder and include routing module to root (app) module:
-<p>ng g m app-routing --flat=true --module=app</p>
+```$ ng g m app-routing --flat=true --module=app```
 
 ### There are 2 ways to create forms in Angular 
 <p>1. Template Driven Forms ( All Codes are completely in HTML )</p>
@@ -123,9 +135,9 @@
 
 ---------------------------------------------------------------------------------
 ### Install JQuery and Bootstrap:
-<p>npm install bootstrap@3 jquery --save</p>
+```$ npm install bootstrap@3 jquery --save```
 
 ### Reading Data in Angular(Creating list employees component) :
-ng g c employees/listEmployees --spec false --flat true
+```$ ng g c employees/listEmployees --spec false --flat true```
 
 =================================================================================
