@@ -141,3 +141,6 @@ $ ng g c employee/list-employees --spec=false --flat=true
 ```$ ng g c employees/listEmployees --spec false --flat true```
 
 =================================================================================
+## Error Resolution
+### Could not find module "@angular-devkit/build-angular"
+```$ npm install --save-dev @angular-devkit/build-angular```
